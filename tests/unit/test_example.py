@@ -18,3 +18,8 @@ def test_add_numbers():
     out = add_numbers(1, 2)
     expected_out = 3
     assert  out == expected_out, f"Expected {expected_out} but got {out}"
+
+from pyospackage_zhajy.example import multiply_numbers
+
+def test_multiply_numbers():
+    assert multiply_numbers(2, 3) == 6
